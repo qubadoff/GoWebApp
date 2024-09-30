@@ -11,7 +11,7 @@ func main() {
 		})
 	})
 
-	err := r.Run(":9096")
+	err := r.Run(":80")
 
 	if err != nil {
 		return
